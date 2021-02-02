@@ -1,0 +1,171 @@
+ * {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+.quizBlock {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: steelblue;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px darkslategray;
+  width: 80%;
+  max-width: 700px;
+}
+
+.tit {
+  height: 50px;
+  border-radius: 10px 10px 0 0 ;
+  text-align: center;
+  line-height: 50px;
+  background-color: aliceblue;
+}
+
+.questionBlock {
+  margin: 10px;
+  height: 50px;
+  text-align: center;
+}
+
+.answerBlock {
+  width: 100%;
+  height: 250px;
+}
+
+.questionPanel {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blocks {
+  display: flex;
+  cursor: pointer;
+  font-size: 25px;
+  line-height: 60px;
+  margin: 0 20px;
+  background-color: aliceblue;
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.var:active {
+  box-shadow: 3px 3px 2px darkslategray inset;
+  line-height: 63px;
+}
+
+.sel {
+  box-shadow: 0 3px 2px darkslategray;
+  padding: 0 10px;
+  text-align: center;
+  width: 40px;
+  border-radius: 10px 0 0 10px;
+  background-color: lightgrey;
+}
+
+.var {
+  box-shadow: 3px 3px 2px darkslategray;
+  width: 100%;
+  padding: 0 10px;
+  border-radius: 0 10px 10px 0;
+}
+
+.load {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  font-size: 50px;
+  width: 300px;
+}
+
+.totBlock {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 30px;
+  z-index: -1;
+}
+
+#total {
+  color: white;
+  /*margin: 100px auto;*/
+  max-width: 300px;
+  /*height: 300px;*/
+}
+
+.imgScore img {
+  width: 100%;
+  height: 100%;
+}
+
+.text {
+  color: greenyellow;
+}
+
+
+@media (max-width: 768px) {
+
+  .tit {
+    font-size: 20px;
+    height: 40px;
+    line-height: 37px;
+  }
+
+  .questionBlock {
+    font-size: 15px;
+    margin: 5px;
+    height: 30px;
+  }
+
+  .answerBlock {
+    height: 150px;
+  }
+
+  .questionPanel {
+    height: 50px;
+  }
+
+  .blocks {
+    font-size: 12px;
+    line-height: 30px;
+    margin: 0 10px;
+    width: 200px;
+    height: 30px;
+  }
+
+  .sel {
+    padding: 0 5px;
+    width: 30px;
+  }
+
+  .var {
+    box-shadow: 2px 2px 1px darkslategrey;
+    width: 100%;
+    padding: 0 5px;
+  }
+
+  .var:active {
+    line-height: 33px;
+  }
+
+  .load {
+    font-size: 15px;
+    width: 100px;
+  }
+
+  .score {
+    font-size: 20px;
+  }
+
+}
