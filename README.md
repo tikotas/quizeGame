@@ -1,1 +1,1 @@
-> # Go to [page](https://tikotas.github.io/quizeGame/)
+> # You can see my work [here](https://tikotas.github.io/quizeGame/)
