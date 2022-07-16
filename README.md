@@ -1,1 +1,1 @@
-> # ([https://tikotas.github.io/quizeGame/])
+> # [visit page](https://tikotas.github.io/quizeGame/)
